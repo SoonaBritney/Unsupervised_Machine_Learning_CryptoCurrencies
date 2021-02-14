@@ -14,10 +14,10 @@ In this section, we had to load the information about cryptocurrencies from the 
 
 ## Summary
 
-### (1) Deliverable 1: Preprocessing the Data for PCA
-### (2) Deliverable 2: Reducing Data Dimensions Using PCA
-### (3) Deliverable 3: Clustering Cryptocurrencies Using K-means
-### (4) Deliverable 4: Visualizing Cryptocurrencies Results
+#### (1) Deliverable 1: Preprocessing the Data for PCA - [deliverable 1](https://github.com/SoonaBritney/Unsupervised_Machine_Learning_CryptoCurrencies/blob/main/Challenge/crypto_clustering.ipynb)
+#### (2) Deliverable 2: Reducing Data Dimensions Using PCA  - [deliverable 1](https://github.com/SoonaBritney/Unsupervised_Machine_Learning_CryptoCurrencies/blob/main/Challenge/crypto_clustering.ipynb)
+#### (3) Deliverable 3: Clustering Cryptocurrencies Using K-means  - [deliverable 1](https://github.com/SoonaBritney/Unsupervised_Machine_Learning_CryptoCurrencies/blob/main/Challenge/crypto_clustering.ipynb)
+#### (4) Deliverable 4: Visualizing Cryptocurrencies Results  - [deliverable 1](https://github.com/SoonaBritney/Unsupervised_Machine_Learning_CryptoCurrencies/blob/main/Challenge/crypto_clustering.ipynb)
 
 ### (1) Deliverable 1: Preprocessing the Data for PCA
 We started by loading the data in a Pandas DataFrame named “crypto_df” and continued with the following data preprocessing tasks:
