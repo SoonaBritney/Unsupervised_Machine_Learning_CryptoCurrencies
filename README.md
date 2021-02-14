@@ -12,6 +12,13 @@ Challenge Summary
 Data Preprocessing
 In this section, we had to load the information about cryptocurrencies from the provided CSV file and perform some data preprocessing tasks. The data was retrieved from CryptoCompare
 
+## Summary
+
+### Deliverable 1: Preprocessing the Data for PCA
+### Deliverable 2: Reducing Data Dimensions Using PCA
+### Deliverable 3: Clustering Cryptocurrencies Using K-means
+### Deliverable 4: Visualizing Cryptocurrencies Results
+
 We started by loading the data in a Pandas DataFrame named “crypto_df” and continued with the following data preprocessing tasks:
 
 Remove all cryptocurrencies that aren’t trading.
