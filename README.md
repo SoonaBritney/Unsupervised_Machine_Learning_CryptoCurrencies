@@ -19,6 +19,7 @@ In this section, we had to load the information about cryptocurrencies from the 
 ### (3) Deliverable 3: Clustering Cryptocurrencies Using K-means
 ### (4) Deliverable 4: Visualizing Cryptocurrencies Results
 
+### (1) Deliverable 1: Preprocessing the Data for PCA
 We started by loading the data in a Pandas DataFrame named “crypto_df” and continued with the following data preprocessing tasks:
 
 Remove all cryptocurrencies that aren’t trading.
@@ -33,13 +34,15 @@ Use the StandardScaler from sklearn to standardize all of the data from the X Da
 Reducing Data Dimensions Using PCA
 We used the PCA algorithm from sklearn to reduce the dimensions of the X DataFrame down to three principal components.
 
+### (2) Deliverable 2: Reducing Data Dimensions Using PCA
 Once we had reduced the data dimensions, we created a DataFrame named “pcs_df” that includes the following columns:
 
-PC 1
-PC 2
-PC 3
+-PC 1
+-PC 2
+-PC 3
 We used the crypto_df.index as the index for this new DataFrame.
 
+### (3) Deliverable 3: Clustering Cryptocurrencies Using K-means
 Clustering Cryptocurrencies Using K-means
 We used the KMeans algorithm from sklearn to cluster the cryptocurrencies using the PCA data.
 
@@ -49,6 +52,7 @@ Create a new DataFrame named “clustered_df,” that includes the following col
 Visualizing Results
 We created data visualizations to present the final results.
 
+### (4) Deliverable 4: Visualizing Cryptocurrencies Results
 Create a 3D scatter plot using Plotly Express to plot the clusters using the clustered_df DataFrame. You should include the following parameters on the plot: hover_name="CoinName" and hover_data=["Algorithm"] to show this additional info on each data point.
 Use hvplot.table to create a data table with all the current tradable cryptocurrencies. The table should have the following columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.
 Create a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Use the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point.
