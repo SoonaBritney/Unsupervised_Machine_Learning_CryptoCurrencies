@@ -4,6 +4,8 @@
 In this challenge, we use unsupervised learning to analyze data on the cryptocurrencies traded on the market. We present a report of what cryptocurrencies are on the trading market and how cryptocurrencies could be grouped toward creating a classification for developing a new investment product. The data we work with is not ideal, so we process it to fit the machine learning models. Since there is no known output for what we are looking for, we decided to use unsupervised learning. To group the cryptocurrencies, we decided on a clustering algorithm to help determine about investing in this product. We used data visualizations to share our findings.
 
 ## Objectives
+#### Data Source - [Crypto Currency](https://github.com/SoonaBritney/Unsupervised_Machine_Learning_CryptoCurrencies/blob/main/Challenge/Resources/crypto_data.csv) 
+#### Technology - Unsupervised Machine learning, Python
 Prepare the data for dimensions reduction with PCA and clustering using K-means.
 Reduce data dimensions using PCA algorithms from sklearn.
 Predict clusters using cryptocurrencies data using the K-means algorithm form sklearn.
